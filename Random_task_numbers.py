@@ -22,7 +22,7 @@ def shows_one_task(total_tasks):
 
 
 if __name__ == "__main__":
-    first_argument = int(input("total tasks?\n"))
+    # first_argument = int(input("total tasks?\n"))
     # Откомментировать если нужно сразу передавать агрумент код через консоль
-    # import sys; first_argument = int(sys.argv[1])
+    import sys; first_argument = int(sys.argv[1])
     shows_one_task(first_argument)
